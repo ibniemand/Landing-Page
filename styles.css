@@ -10,8 +10,8 @@ body{
         justify-content: space-between;
         color: #f9faf8;
         background-color: #1f2937;
-        margin: 0;
-        padding: 0 128px;
+        margin: 0%;
+        padding: 4px 128px;
     }
 
 a:link{
@@ -52,6 +52,7 @@ a:link{
         color: #1f2937;
         font-size: 36px;
         font-weight: bolder;
+        padding-bottom: 64px;
     }
 
     .top{
@@ -59,6 +60,8 @@ a:link{
         color: #e5e7eb;
         font-size: 18px;
         padding: 100px 128px;
+        display: flex;
+        gap: 145px;
     }
 
     .text{
@@ -66,22 +69,24 @@ a:link{
         font-weight: bolder;
         color: #f9faf8;
         display: flex;
+        
     }
 
     .subtext{
         font-size: 18px;
         color: #e5e7eb;
         display: flex;
+        padding: 8px 0px;
     }
 
     .button1{
         background-color: #3882f6;
         color: #f9faf8;
         font-weight: bold;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 18px;
-        padding-right: 18px;
+        padding: 8px 32px;
+        border-radius: 8px;
+        border-style: none;
+        font-size: 18px;
     }
 
     .info{
@@ -118,6 +123,7 @@ a:link{
         margin: 100px 128px;
         color: #f9faf8;
         justify-content: space-between;
+        border-radius: px;
     }
 
     .text3{
@@ -137,18 +143,37 @@ a:link{
         background-color: #3882f6;
         color: #f9faf8;
         font-weight: bold;
-        padding-top: 8px;
-        padding-bottom: 8px;
-        padding-left: 18px;
-        padding-right: 18px;
+        padding: 12px 32px;
+        border-radius: 8px;
+        border-style: solid;
+        border-color: white;
     }
 
     .footer{
         background-color: #1f2937;
         padding: 32px 0;
         display: flex;
+        color: #f9faf8;
+        justify-content: center;
+    }
+
+    .image1{
+        display: flex;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        display: flex;
         justify-content: center;
         align-items: center;
-        color: #f9faf8;
+        color: #42536b;
         font-size: 18px;
+        flex-grow: 0;
+        flex-shrink: 0;
     }
+
+    
+
+    
