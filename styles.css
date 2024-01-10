@@ -4,6 +4,8 @@ body{
     min-height: 100vh;
 }
 
+    /* Header */
+
     .header{
         display: flex;
         align-items: center;
@@ -19,6 +21,11 @@ a:link{
     text-decoration: none;
 }
 
+    .logo{
+        font-size: 24px;
+        font-weight: bolder;
+    }
+
     .links{
         list-style: none;
         display: flex;
@@ -28,32 +35,7 @@ a:link{
         align-items: center;
         }
 
-    .logo{
-        font-size: 24px;
-        font-weight: bolder;
-    }
-
-    .text{
-        display: flex;
-            flex-direction: column;
-    }
-
-    .content{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .subtitle{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: #1f2937;
-        font-size: 36px;
-        font-weight: bolder;
-        padding-bottom: 64px;
-    }
+        /*Description*/
 
     .top{
         background-color: #1f2937;
@@ -69,7 +51,7 @@ a:link{
         font-weight: bolder;
         color: #f9faf8;
         display: flex;
-        
+        flex-direction: column;
     }
 
     .subtext{
@@ -89,11 +71,39 @@ a:link{
         font-size: 18px;
     }
 
+    /* Most viewed */
+
     .info{
         background-color: #f9faf8;
         color: #1f2937;
         padding: 64px 256px;
     }
+
+    .subtitle{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #1f2937;
+        font-size: 36px;
+        font-weight: bolder;
+        padding-bottom: 64px;
+    }
+
+    .content{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        color: #42536b;
+        font-size: 18px;
+    }    
+
+    .content img{
+        height: 175px;
+        width: 175px;
+        border-radius: 10px;
+    }
+
+    /* Quote */
 
     .quote{
         background-color: #e5e7eb;
@@ -123,7 +133,7 @@ a:link{
         margin: 100px 128px;
         color: #f9faf8;
         justify-content: space-between;
-        border-radius: px;
+        border-radius: 10px;
     }
 
     .text3{
@@ -147,7 +157,10 @@ a:link{
         border-radius: 8px;
         border-style: solid;
         border-color: white;
+        font-size: 16px;
     }
+
+    /* Footer */
 
     .footer{
         background-color: #1f2937;
@@ -157,22 +170,9 @@ a:link{
         justify-content: center;
     }
 
-    .image1{
-        display: flex;
-    }
+    
 
-    .content{
-        display: flex;
-        flex-direction: row;
-        gap: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #42536b;
-        font-size: 18px;
-        flex-grow: 0;
-        flex-shrink: 0;
-    }
+    
 
     
 
